@@ -1,10 +1,15 @@
-# Dynamax
-A Website I created for my Microprocessors and Microcontrollers course at VITC. This website manages the user side of a hardware project., and allows the user to check their information and payable amount for their toll road usage.
+🚗 Dynamax: Dynamic Toll Payment System – Streamlit Dashboard
+A Streamlit-based web application that manages user payments for a dynamically priced toll system. This system integrates with hardware components (8051 microcontroller, EM-18 RFID reader, ESP32) and uses Firebase to store and visualize live data of vehicles passing through toll booths.
 
-Dependencies:
-1. Streamlit
-2. Firebase
+📌 Features
+🔐 User authentication via Firebase
 
-Open code in VS Code and type streamlit run main.py in terminal to run
-Website should open in default browser
-If it throws errors check firebase api key (in account.py) 
+🚦 Live vehicle tracking with real-time database updates
+
+💰 Dynamic toll pricing based on traffic density and time of day
+
+📊 Interactive dashboard showing recent vehicle activity and payment logs
+
+🧾 Log of times when user used the specific toll plaza
+
+🌐 Seamless integration with hardware over Wi-Fi via ESP32
